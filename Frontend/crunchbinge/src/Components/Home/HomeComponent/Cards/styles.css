@@ -1,0 +1,18 @@
+.photos {
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.card:hover {
+    width: 330px;
+    height: 280px;
+    position: absolute;
+    top: -50px;
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.2);
+    z-index: 99;
+}
+
+.card:hover .photos {
+    height: 140px;
+}
